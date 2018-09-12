@@ -80,14 +80,17 @@ public class MarshmallowMonster
 		this.armCount = arms;
 	}
 
+
 	@Override
 	public String toString()
 	{
-		String description = "This monster is named " + name
+		String description = "";
+
+		/*"This monster is named " + name
 				+ " and it has " + legCount + " legs "
-				+ "it has " + eyeCount + " eyes" + " nd oes it have a nose? " + hasNoses + ". It also has " + armCount + " arms"
-				+ " its favorite silly/scary/spooky hing to say is: "
-				+ "ddo you like alphabet soup?";
+				+ "it has " + eyeCount + " eyes" + " and does it have a nose? " + hasNoses + ". It also has " + armCount + " arms"
+				+ " its favorite silly/scary/spooky thing to say is: "
+				+ "do you like alphabet soup?";*/
 
 		return description;
 	}
